@@ -9,7 +9,7 @@ export const timelineData: ITimeline[] = [
     activity: Activity.Development,
     where: "https://romeu.tech/",
     stack:
-      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Fluent Validations, MySQL, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Lazygit, Lua, Neovim, Visual Studio, Powershell, Windows Terminal, YAML, Confluence...",
+      ".NET 8+, C# 12+, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Fluent Validations, MySQL, CosmosDB, xUnit, Fluent Assertions, Docker, Redis, Git, Azure DevOps, Lazygit, Lua, Neovim, Visual Studio, Powershell, Wezterm, Windows Terminal, YAML, Confluence...",
     tasks: [
       "Took part in the company's new microservice API architecture implementation and refinement.",
       "Shared technical guides in the company's Confluence repository.",
