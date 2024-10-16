@@ -18,6 +18,8 @@ export const timelineData: ITimeline[] = [
       "Modernized company's report designing workflow adding DevExpress Web Reporting MVC framework to Reporting microservice.",
       "Implemented delegated Identity handler service in the new microservices architecture and policy based authorization workflows.",
       "Implemented activity registering automated mechanism using EF interceptors and integration events via Dapr Pub/Sub.",
+      "Implemented BaseSpecification pattern using Ardalis Specification library to automatically enforce restrictions in specific queries based on context data.",
+      "Implemented an analog system for Dapper queries using Dapper's SqlBuilder extension and a custom, simpler, Specification-alike wrapper.",
       "Followed agile development guidelines under Scrum framework.",
     ],
   },
