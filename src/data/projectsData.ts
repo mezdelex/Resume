@@ -2,14 +2,14 @@ import IProject from "@/models/IProject";
 
 export const projectsData: IProject[] = [
   {
-    id: "CleanTemplate8",
+    id: "CleanTemplate9",
     pushed_at: "",
-    name: ".NET 8 Clean Architecture Template",
-    image: require("@/assets/clean8.png"),
+    name: ".NET9 Clean Architecture Template",
+    image: require("@/assets/clean9.png"),
     repo: "https://github.com/mezdelex/CleanTemplate8",
     app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
     description:
-      ".NET 8 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Specification pattern, Minimal API, Docker for SQLServer, RabbitMQ and WebApi containerization, FluentValidations, Unit of Work pattern, Serilog logging, CSharpier pre-commit hooks with Husky, Testing with xUnit and Moq, FluentAssertions, etc. Coded with Neovim",
+      ".NET9 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Specification pattern, Minimal API, Docker for SQLServer, RabbitMQ and WebApi containerization, FluentValidations, Unit of Work pattern, Serilog logging, CSharpier pre-commit hooks with Husky, Testing with xUnit and Moq, FluentAssertions, etc. Coded with Neovim",
   },
   {
     id: "AoC2023",
@@ -34,12 +34,12 @@ export const projectsData: IProject[] = [
   {
     id: "CleanTemplate",
     pushed_at: "",
-    name: ".NET 7 Clean Architecture Template",
+    name: ".NET7 Clean Architecture Template",
     image: require("@/assets/clean.png"),
     repo: "https://github.com/mezdelex/CleanTemplate",
     app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
     description:
-      ".NET 7 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, CQRS pattern, Minimal API, Docker for PostgreSQL and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
+      ".NET7 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, CQRS pattern, Minimal API, Docker for PostgreSQL and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
   },
   {
     id: "TodoApp",
