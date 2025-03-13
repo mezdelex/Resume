@@ -5,9 +5,9 @@
 </template>
 
 <script setup lang="ts">
+import Header from "@/components/Header.vue";
 import ComponentTimeline from "@/components/ComponentTimeline.vue";
-import Footer from "@/footer/Footer.vue";
-import Header from "@/header/Header.vue";
+import Footer from "@/components/Footer.vue";
 </script>
 
 <style>
@@ -54,7 +54,9 @@ import Header from "@/header/Header.vue";
   background: var(--custom-orange);
 }
 
-.p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
+.p-accordion
+  .p-accordion-header:not(.p-disabled).p-highlight
+  .p-accordion-header-link {
   background: var(--custom-orange);
   border-color: var(--custom-orange);
 }

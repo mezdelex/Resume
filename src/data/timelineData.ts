@@ -27,7 +27,7 @@ export const timelineData: ITimeline[] = [
       "Created the UI service to transform previously generated right trees into dynamic menus to be retrieved by client applications.",
       "Added several table models and code first migrations",
       "Implemented internal notification system using domain events to be handled by Azure SignalR delegated hub.",
-      "Implemented a document management microservice to handle document generation, blob retrieval from Azure Blob Storage, versioning, ZipFile compression and deletion.",
+      "Implemented a document management microservice to handle document generation, blob retrieval from Azure Blob Storage, versioning, multi file compression via ZipFile, PDF page splitting and deletion.",
       "Several new features, bug fixes and refactors.",
       "Followed agile development guidelines under Scrum framework.",
     ],
@@ -86,10 +86,10 @@ export const timelineData: ITimeline[] = [
   },
   {
     icon: Icons.Code,
-    title: "Ibermática",
+    title: "Ayesa",
     date: `2022 ${Reasons.Change}`,
     activity: Activity.Development,
-    where: "https://ibermatica.com/",
+    where: "https://ayesa.com/",
     stack:
       ".NET 6, EF Core 6 (Model/Code First), LINQ, Fluent API, Swagger UI, Fluent UI, C# 10, Xamarin.Forms, React 18, Javascript ES6, jQuery, Microsoft Dynamics 365, Power Platform, Git, Azure DevOps, Azure Active Directory, Microsoft Authentication Library (MSAL), Windows Terminal, Powershell Core, SQL Server, SQL Server Management Studio, Transact-SQL, Stored Procedures, Triggers, Visual Studio 2022, Visual Studio Code, Model View Controller, Model View ViewModel...",
     tasks: [
