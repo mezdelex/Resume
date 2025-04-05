@@ -68,9 +68,24 @@ import { projectsService } from "@/services/projects/projectsService";
 import { projectsStore } from "@/shared/projectsStore";
 import { repositoriesStore } from "@/shared/repositoriesStore";
 import { watchEffect } from "vue";
+import {
+  differenceInDays,
+  differenceInHours,
+  differenceInMinutes,
+  parseISO,
+} from "date-fns";
 
-const getLastUpdate = (project: IProject) =>
-  project.pushed_at ? project.pushed_at.substring(0, 10) : "Unknown";
+const getLastUpdate = (project: IProject): string => {
+  const now = new Date();
+  const parsed = parseISO(project.pushed_at);
+  const hoursDiff = differenceInHours(now, parsed);
+
+  return differenceInDays(now, parsed) < 1
+    ? hoursDiff < 1
+      ? `${differenceInMinutes(now, parsed)} minute(s) ago`
+      : `${hoursDiff} hour(s) ago`
+    : parsed.toLocaleDateString();
+};
 
 watchEffect(() => projectsService.sortProjects());
 </script>
