@@ -28,6 +28,8 @@ export const timelineData: ITimeline[] = [
       "Added several table models and code first migrations",
       "Implemented internal notification system using domain events to be handled by Azure SignalR delegated hub.",
       "Implemented a document management microservice to handle document generation, blob retrieval from Azure Blob Storage, versioning, multi file compression via ZipFile, PDF page splitting and deletion.",
+      "Implemented several external entity synchronization services with the corresponding delegate Identity server credentials, required external API calls, data transformation and persistence to be able to create/update new/existing entities based on its identifier field.",
+      "Implemented a generic, reflection-based method to effortlessly patch both entity properties and its relationships on tracked entities.",
       "Several new features, bug fixes and refactors.",
       "Followed agile development guidelines under Scrum framework.",
     ],
