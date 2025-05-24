@@ -79,7 +79,7 @@ export const projectsData: IProject[] = [
     repo: "https://github.com/mezdelex/NeovimConfig",
     app: "https://neovim.io/",
     description:
-      "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, linting, suggestions, formatting, diagnostics, file search, live grep, file manager, git integration, code modification history, status line, autopairs, autotags...",
+      "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, LLM integration through provided adapters, linting, suggestions, formatting, diagnostics, file search, live grep, file manager, git integration, code modification history, status line, autopairs, autotags...",
   },
   {
     id: "AoC2022",
