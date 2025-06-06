@@ -25,6 +25,7 @@ import Footer from "@/components/Footer.vue";
 .fieldsetHover {
   transition: transform 0.2s ease;
   transform: scale3d(1, 1, 1);
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 .fieldsetHover:hover {
@@ -33,7 +34,7 @@ import Footer from "@/components/Footer.vue";
 
 .p-fieldset .p-fieldset-legend {
   color: var(--custom-green);
-  padding: 0.5rem;
+  padding: 0.2rem 0 0.4rem 0;
   padding-inline: 1rem;
 }
 
