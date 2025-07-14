@@ -9,7 +9,7 @@
       </div>
     </template>
     <template #content="slotProps">
-      <div :class="conditionalFade()">
+      <div :class="conditionalFade(slotProps.index)">
         <Fieldset class="fieldsetHover" :legend="slotProps.item.title">
           <ul>
             <li class="custom-info">
@@ -58,11 +58,9 @@
 import { Icons } from "@/enums/enums";
 import { timelineData } from "@/data/timelineData";
 
-let counter = 0;
-
 const hasUrl = (value: string) => value.includes("https");
-const conditionalFade = () =>
-  counter++ % 2 !== 0
+const conditionalFade = (index: number) =>
+  index % 2 !== 0
     ? "animate__animated animate__faster animate__fadeInLeft"
     : "animate__animated animate__faster animate__fadeInRight";
 </script>
