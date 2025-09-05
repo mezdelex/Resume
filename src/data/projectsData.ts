@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export const projectsData: IProject[] = [
   {
+    id: "unpack",
+    pushed_at: "",
+    name: "UnPack",
+    image: require("@/assets/unpack.png"),
+    repo: "https://github.com/mezdelex/unpack",
+    app: "https://github.com/mezdelex/unpack",
+    description:
+      "A minimal layer on top of vim.pack API to allow single file plugin configurations. Currently only available under Neovim's nightly branch. Allows deferring plugin load and managing dependencies in a simple yet convenient way via commands or exposed module methods. For a more detailed documentation, check the repository.",
+  },
+  {
     id: "CleanTemplate9",
     pushed_at: "",
     name: ".NET9 Clean Architecture Template",
