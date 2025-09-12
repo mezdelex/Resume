@@ -4,10 +4,10 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
-    title: "Romeu Shipping Agency",
+    title: "Romeu Shipping Division",
     date: `2024-Present`,
     activity: Activity.Development,
-    where: "https://romeu.com/",
+    where: "https://romeushipping.com/",
     stack:
       ".NET 8+, C# 12+, Typescript, Angular, RxJS, Clean Architecture, CQRS, MediatR, Pipelines, Dapr, Distributed Architecture, Domain/Integration Events, SignalR, Entity Framework, Specification Pattern, Dapper, Swagger, Unit Of Work, RabbitMQ, DBeaver, Azure Blob Storage Explorer, Fluent Validations, MySQL, CosmosDB, Azure Blob Storage, xUnit, Autofixture, NSubstitute, Fluent Assertions, Docker, Redis, Git, Worktrees, Azure DevOps, Brevo, Maildev, Lazygit, Lazydocker, Lua, Neovim, Visual Studio, Powershell, Wezterm, YAML, Confluence...",
     tasks: [
