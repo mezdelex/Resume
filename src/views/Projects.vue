@@ -31,11 +31,15 @@ import Footer from "@/components/Footer.vue";
   border-radius: 0.5rem;
 }
 
-.linkHover:hover,
 .cardHover:hover {
+  color: var(--custom-background);
   transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.linkHover:hover {
   background-color: var(--custom-orange);
   color: var(--custom-background);
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .p-card {

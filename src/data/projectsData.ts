@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export const projectsData: IProject[] = [
   {
+    id: "resume-rs",
+    pushed_at: "",
+    name: "Resume RS",
+    image: require("@/assets/leptos.png"),
+    repo: "https://github.com/mezdelex/resume-rs",
+    app: "https://github.com/leptos-rs/leptos",
+    description:
+      "A work in progress replica of the Vue 3 resume, developed using Rust (btw), and the Leptos WASM framework in CSR trunk mode, Thaw UI library, Serde, Tokio, Reqwest, Chrono, etc. Coded with Neovim (btw).",
+  },
+  {
     id: "unpack",
     pushed_at: "",
     name: "UnPack",
