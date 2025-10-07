@@ -7,9 +7,9 @@ export const projectsData: IProject[] = [
     name: "Resume RS",
     image: require("@/assets/leptos.png"),
     repo: "https://github.com/mezdelex/resume-rs",
-    app: "https://github.com/leptos-rs/leptos",
+    app: "https://mezdelex-resume.netlify.app",
     description:
-      "A work in progress replica of the Vue 3 resume, developed using Rust (btw), and the Leptos WASM framework in CSR trunk mode, Thaw UI library, Serde, Tokio, Reqwest, Chrono, etc. Coded with Neovim (btw).",
+      "Portfolio app replica of the main resume to show my personal projects, setup, etc. using Rust and the Leptos WASM framework in CSR trunk mode, Thaw UI library, and a wide variety of crates like Serde, Tokio, Reqwest or Chrono. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in the default domain. Coded with Neovim.",
   },
   {
     id: "unpack",
