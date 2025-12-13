@@ -5,7 +5,7 @@ export const timelineData: ITimeline[] = [
   {
     icon: Icons.Code,
     title: "Romeu Shipping Division",
-    date: `2024-Present`,
+    date: `2024-2025 ${Reasons.Resign}`,
     activity: Activity.Development,
     where: "https://romeushipping.com/",
     stack:
