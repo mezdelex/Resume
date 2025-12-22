@@ -22,12 +22,12 @@ export const projectsData: IProject[] = [
       "Portfolio app replica of the main resume to show my personal projects, setup, etc. using Rust and the Leptos WASM framework in CSR trunk mode, Thaw UI library, and a wide variety of crates like Serde, Tokio, Reqwest or Chrono. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in the default domain. Coded with Neovim.",
   },
   {
-    id: "unpack",
+    id: "unpack.nvim",
     pushed_at: "",
     name: "UnPack",
     image: require("@/assets/unpack.png"),
-    repo: "https://github.com/mezdelex/unpack",
-    app: "https://github.com/mezdelex/unpack",
+    repo: "https://github.com/mezdelex/unpack.nvim",
+    app: "https://github.com/mezdelex/unpack.nvim",
     description:
       "A minimal layer on top of vim.pack API to allow single file plugin configurations. vim.pack is currently under development and only available in the Neovim's nightly branch. Allows deferring plugin load and managing dependencies in a simple yet convenient way via commands or exposed module methods. For a more detailed documentation, check the repository.",
   },
