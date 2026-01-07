@@ -1,6 +1,5 @@
 import { repositoriesStore } from "@/shared/repositoriesStore";
 import IGitHubService from "@/services/github/IGitHubService";
-import _ from "lodash";
 
 export const gitHubService: IGitHubService = {
   getRepos: async () =>
@@ -10,9 +9,10 @@ export const gitHubService: IGitHubService = {
       .catch((error) => console.log(error)),
   getUpdatedRepo: () => {
     if (repositoriesStore.repos.length)
-      repositoriesStore.repo = _.chain(repositoriesStore.repos)
-        .maxBy((repo) => repo.pushed_at)
-        .value().name;
+      repositoriesStore.repo = repositoriesStore.repos.reduce(
+        (acc, next) => (!acc || next.pushed_at > acc.pushed_at ? next : acc),
+        repositoriesStore.repos[0]
+      ).name;
   },
   getLastCommit: async () => {
     if (repositoriesStore.repos.length)

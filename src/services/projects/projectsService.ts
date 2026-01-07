@@ -2,12 +2,11 @@ import { repositoriesStore } from "@/shared/repositoriesStore";
 import { projectsStore } from "@/shared/projectsStore";
 import { projectsData } from "@/data/projectsData";
 import IProjectsService from "./IProjectsService";
-import _ from "lodash";
 
 export const projectsService: IProjectsService = {
   sortProjects: () => {
     if (repositoriesStore.repos.length)
-      projectsStore.projects = _.chain(projectsData)
+      projectsStore.projects = projectsData
         .map((project) =>
           project.id !== ""
             ? {
@@ -18,8 +17,9 @@ export const projectsService: IProjectsService = {
             }
             : project
         )
-        .orderBy((project) => project.pushed_at, "desc")
-        .value();
+        .sort((previous, next) =>
+          (next.pushed_at ?? "").localeCompare(previous.pushed_at ?? "")
+        );
     else projectsStore.projects = projectsData;
   },
 };
