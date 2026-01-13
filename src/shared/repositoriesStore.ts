@@ -1,7 +1,7 @@
 import IRepository from "@/models/IRepository";
 import { reactive, ref } from "vue";
 
-export const repositoriesStore = reactive({
+export default reactive({
   repos: reactive<IRepository[]>([]),
   date: ref(""),
   message: ref(""),

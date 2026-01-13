@@ -2,10 +2,7 @@
   <Timeline :value="timelineData" align="alternate">
     <template #marker="slotProps">
       <div class="animate__animated animate__faster animate__fadeInUp">
-        <font-awesome-icon
-          :icon="slotProps.item.icon"
-          class="custom-marker p-shadow-5"
-        ></font-awesome-icon>
+        <font-awesome-icon :icon="slotProps.item.icon" class="custom-marker p-shadow-5"></font-awesome-icon>
       </div>
     </template>
     <template #content="slotProps">
@@ -18,11 +15,7 @@
               {{ slotProps.item.activity }}
             </li>
             <li v-if="hasUrl(slotProps.item.where)">
-              <a
-                :href="slotProps.item.where"
-                :alt="slotProps.item.where"
-                target="_"
-              >
+              <a :href="slotProps.item.where" :alt="slotProps.item.where" target="_">
                 {{ slotProps.item.where }}
               </a>
             </li>
@@ -39,11 +32,7 @@
           </Accordion>
           <Accordion v-if="slotProps.item.tasks.length">
             <AccordionTab header="Tasks">
-              <p
-                class="accordionText"
-                v-for="task in slotProps.item.tasks"
-                :key="task"
-              >
+              <p class="accordionText" v-for="task in slotProps.item.tasks" :key="task">
                 {{ task }}
               </p>
             </AccordionTab>
@@ -55,8 +44,8 @@
 </template>
 
 <script setup lang="ts">
+import timelineData from "@/data/timelineData";
 import { Icons } from "@/enums/enums";
-import { timelineData } from "@/data/timelineData";
 
 const hasUrl = (value: string) => value.includes("https");
 const conditionalFade = (index: number) =>

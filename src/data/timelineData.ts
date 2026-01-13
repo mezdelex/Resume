@@ -1,7 +1,7 @@
 import ITimeline from "@/models/ITimeline";
 import { Activity, Icons, Reasons } from "@/enums/enums";
 
-export const timelineData: ITimeline[] = [
+export default [
   {
     icon: Icons.Code,
     title: "Romeu Shipping Division",
@@ -215,4 +215,4 @@ export const timelineData: ITimeline[] = [
       "RF Applications.",
     ],
   },
-];
+] as ITimeline[];

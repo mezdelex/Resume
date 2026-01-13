@@ -1,24 +1,15 @@
-import {
-  RouteRecordRaw,
-  Router,
-  createRouter,
-  createWebHashHistory,
-} from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
-const routes: RouteRecordRaw[] = [
-  {
-    component: () => import("@/views/Projects.vue"),
-    path: "/",
-  },
-  {
-    component: () => import("@/views/Timeline.vue"),
-    path: "/timeline",
-  },
-];
-
-const router: Router = createRouter({
+export default createRouter({
   history: createWebHashHistory(),
-  routes,
+  routes: [
+    {
+      component: () => import("@/views/Projects.vue"),
+      path: "/",
+    },
+    {
+      component: () => import("@/views/Timeline.vue"),
+      path: "/timeline",
+    },
+  ],
 });
-
-export default router;

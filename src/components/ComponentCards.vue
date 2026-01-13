@@ -1,11 +1,8 @@
 <template>
   <div class="p-grid">
-    <Card
-      v-if="repositoriesStore.finished"
+    <Card v-if="repositoriesStore.finished"
       class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
-      v-for="project in projectsStore.projects"
-      :key="project.name"
-    >
+      v-for="project in projectsStore.projects" :key="project.name">
       <template #header>
         <span class="last-update">
           Last update:
@@ -13,11 +10,7 @@
           {{ getLastUpdate(project) }}
         </span>
         <a :href="project.app" target="_">
-          <img
-            class="cardHover img-field"
-            :src="project.image"
-            :alt="project.name"
-          />
+          <img class="cardHover img-field" :src="project.image" :alt="project.name" />
         </a>
       </template>
       <template #title>
@@ -45,17 +38,13 @@
         </div>
       </template>
     </Card>
-    <div
-      v-else
-      class="p-col"
-      style="
+    <div v-else class="p-col" style="
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 2rem;
-      "
-    >
+      ">
       <div class="dot-spin" />
     </div>
   </div>
@@ -63,10 +52,10 @@
 
 <script setup lang="ts">
 import IProject from "@/models/IProject";
+import projectsService from "@/services/projects/projectsService";
+import projectsStore from "@/shared/projectsStore";
+import repositoriesStore from "@/shared/repositoriesStore";
 import { Icons } from "@/enums/enums";
-import { projectsService } from "@/services/projects/projectsService";
-import { projectsStore } from "@/shared/projectsStore";
-import { repositoriesStore } from "@/shared/repositoriesStore";
 import {
   differenceInDays,
   differenceInHours,

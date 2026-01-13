@@ -1,6 +1,6 @@
 import IProject from "@/models/IProject";
 import { reactive } from "vue";
 
-export const projectsStore = reactive({
+export default reactive({
   projects: reactive<IProject[]>([]),
 });

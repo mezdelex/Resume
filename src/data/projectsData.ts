@@ -1,6 +1,6 @@
 import IProject from "@/models/IProject";
 
-export const projectsData: IProject[] = [
+export default [
   {
     id: "proto-otel",
     pushed_at: "",
@@ -221,4 +221,4 @@ export const projectsData: IProject[] = [
     description:
       "My first Web App back in 2020 done with Javascript, HTML, CSS and Bootstrap consuming an external Trivia API that required token authorization to be accessed. Coded with VSCode.",
   },
-];
+] as IProject[];

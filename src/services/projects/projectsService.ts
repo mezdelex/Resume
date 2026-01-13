@@ -1,9 +1,9 @@
-import { repositoriesStore } from "@/shared/repositoriesStore";
-import { projectsStore } from "@/shared/projectsStore";
-import { projectsData } from "@/data/projectsData";
+import projectsData from "@/data/projectsData";
+import projectsStore from "@/shared/projectsStore";
+import repositoriesStore from "@/shared/repositoriesStore";
 import IProjectsService from "./IProjectsService";
 
-export const projectsService: IProjectsService = {
+export default {
   sortProjects: () => {
     if (repositoriesStore.repos.length)
       projectsStore.projects = projectsData
@@ -22,4 +22,4 @@ export const projectsService: IProjectsService = {
         );
     else projectsStore.projects = projectsData;
   },
-};
+} as IProjectsService;

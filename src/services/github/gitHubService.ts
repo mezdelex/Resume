@@ -1,7 +1,7 @@
-import { repositoriesStore } from "@/shared/repositoriesStore";
 import IGitHubService from "@/services/github/IGitHubService";
+import repositoriesStore from "@/shared/repositoriesStore";
 
-export const gitHubService: IGitHubService = {
+export default {
   getRepos: async () =>
     fetch("https://api.github.com/users/mezdelex/repos?per_page=100")
       .then((response) => response.json())
@@ -28,4 +28,4 @@ export const gitHubService: IGitHubService = {
         })
         .catch((error) => console.log(error));
   },
-};
+} as IGitHubService;

@@ -10,10 +10,18 @@ import ScrollTop from "primevue/scrolltop";
 import Sidebar from "primevue/sidebar";
 import Skeleton from "primevue/skeleton";
 import Timeline from "primevue/timeline";
-import router from "@/router/router";
+import router from "./router/router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createApp } from "vue";
-import { faBriefcase, faCamera, faCode, faFolder, faGlobe, faImage, faList } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBriefcase,
+  faCamera,
+  faCode,
+  faFolder,
+  faGlobe,
+  faImage,
+  faList,
+} from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import "animate.css";
