@@ -9,7 +9,7 @@ export default [
     repo: "https://github.com/mezdelex/proto-otel",
     app: "https://github.com/mezdelex/proto-otel",
     description:
-      "A dockerized distributed architecture demo using Protobuf for integrated communications, OpenTelemetry + OpenSearch stack for observability + .NET9 Clean Architecture template using DDD, CQRS and Event Sourcing with MediatR and MassTransit. Coded with Neovim",
+      "A dockerized event driven distributed architecture demo using Protocol Buffers for integrated communications, OpenTelemetry + OpenSearch stack for observability + .NET 10 Clean Architecture template using DDD, CQRS and Event Sourcing with MediatR and MassTransit. Coded with Neovim",
   },
   {
     id: "resume-rs",
