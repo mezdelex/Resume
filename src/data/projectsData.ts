@@ -92,21 +92,21 @@ export default [
       "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord.",
   },
   {
-    id: "WeztermPowerShellCoreConfig",
+    id: "terminal-config",
     pushed_at: "",
-    name: "Wezterm",
+    name: "Terminal",
     image: require("@/assets/wezterm.png"),
-    repo: "https://github.com/mezdelex/WeztermPowerShellCoreConfig",
+    repo: "https://github.com/mezdelex/terminal-config",
     app: "https://github.com/wez/wezterm",
     description:
       "Wezterm config with Cascadia Code NF variant, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
   },
   {
-    id: "NeovimConfig",
+    id: "neovim-config",
     pushed_at: "",
     name: "Neovim",
     image: require("@/assets/neovim.png"),
-    repo: "https://github.com/mezdelex/NeovimConfig",
+    repo: "https://github.com/mezdelex/neovim-config",
     app: "https://neovim.io/",
     description:
       "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, LLM integration through provided adapters, linting, suggestions, formatting, diagnostics, file search, live grep, file manager, git integration, code modification history, status line, autopairs, autotags...",
@@ -152,11 +152,11 @@ export default [
       "LeetCode exercises to keep algorithmic problem solving fresh and improve my expertise with C++, C# and Rust using cassert, .NET's xUnit and Rustlang's built in library for unit testing. Also added CI pipelines for each language via GitHub Actions to run testing jobs server side. Coded with Neovim.",
   },
   {
-    id: "Resume",
+    id: "resume",
     pushed_at: "",
     name: "Resume",
     image: require("@/assets/resume.png"),
-    repo: "https://github.com/mezdelex/Resume",
+    repo: "https://github.com/mezdelex/resume",
     app: "https://www.mezdelex.com",
     description:
       "Vue 3 app to serve as an online portfolio to show my development experience. Used Vue 3 Composition API with Typescript. The deployment has been done using GitHub's CD pipeline against Netlify and hosted in a dedicated domain. Coded with Neovim.",
