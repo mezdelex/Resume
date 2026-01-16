@@ -2,6 +2,16 @@ import IProject from "@/models/IProject";
 
 export default [
   {
+    id: "expenses-app",
+    pushed_at: "",
+    name: "Expenses",
+    image: require("@/assets/angular21.png"),
+    repo: "https://github.com/mezdelex/expenses-app",
+    app: "https://github.com/mezdelex/expenses-app",
+    description:
+      "WIP Angular 21 app to consume proto-otel demo using Feature Based Architecture, lazy loaded components, distributed routing, Guards, Signals, Observables, environment based config, etc. Coded with Neovim.",
+  },
+  {
     id: "proto-otel",
     pushed_at: "",
     name: "Protobuf OpenTelemetry",
@@ -9,7 +19,7 @@ export default [
     repo: "https://github.com/mezdelex/proto-otel",
     app: "https://github.com/mezdelex/proto-otel",
     description:
-      "A dockerized event driven distributed architecture demo using Protocol Buffers for integrated communications, OpenTelemetry + OpenSearch stack for observability + .NET 10 Clean Architecture template using DDD, CQRS and Event Sourcing with MediatR and MassTransit. Coded with Neovim",
+      "A dockerized event driven distributed architecture demo using Protocol Buffers for integrated communications, OpenTelemetry + OpenSearch stack for observability + .NET 10 Clean Architecture template using DDD, CQRS and Event Sourcing with MediatR and MassTransit. Coded with Neovim.",
   },
   {
     id: "resume-rs",
