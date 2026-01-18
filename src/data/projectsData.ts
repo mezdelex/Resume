@@ -9,7 +9,7 @@ export default [
     repo: "https://github.com/mezdelex/expenses-app",
     app: "https://github.com/mezdelex/expenses-app",
     description:
-      "WIP Angular 21 app to consume proto-otel demo using Feature Based Architecture, BFF Authentication, Lazy Loaded Components, Distributed Routing, Reactive Forms, Validators, Interceptors, Custom Providers, Guards, Signals, Observables, Environment Based Config, etc. Coded with Neovim.",
+      "WIP Angular 21 app to consume proto-otel demo using Feature Based Architecture, BFF Authentication, Lazy Loaded Components, Distributed Routing, Reactive Forms, Material UI, Validators, Interceptors, Custom Providers, Guards, Signals, Observables, Environment Based Config, etc. Coded with Neovim.",
   },
   {
     id: "proto-otel",
