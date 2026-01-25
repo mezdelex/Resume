@@ -1,8 +1,8 @@
 <template>
-  <div class="p-grid">
+  <main class="p-grid">
     <Card
       v-if="repositoriesStore.finished"
-      class="p-mb-auto p-mt-5 p-mx-auto animate__animated animate__faster animate__fadeInUp"
+      class="p-mb-auto p-mt-5 p-mx-auto"
       v-for="project in projectsStore.projects"
       :key="project.name"
     >
@@ -58,7 +58,7 @@
     >
       <div class="dot-spin" />
     </div>
-  </div>
+  </main>
 </template>
 
 <script setup lang="ts">

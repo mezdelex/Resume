@@ -189,7 +189,7 @@ export default [
     repo: "https://github.com/mezdelex/Recetario-SPA",
     app: "https://spa-recetario.netlify.app",
     description:
-      "Vue 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, Animate CSS, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
+      "Vue 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
   },
   {
     id: "Recetario-RESTful-API",

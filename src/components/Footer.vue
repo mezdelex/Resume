@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer>
     To Vim or not to Vim
     <a
       href="https://www.flaticon.com/authors/kerismaker"
@@ -8,5 +8,5 @@
     >
       favicon by kerismaker
     </a>
-  </div>
+  </footer>
 </template>
