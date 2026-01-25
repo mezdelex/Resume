@@ -216,7 +216,7 @@ ul {
 .img-field {
   height: 13rem;
   margin-top: 0.4rem;
-  width: 24rem;
+  width: 23rem;
 }
 
 .last-update {
@@ -230,7 +230,9 @@ ul {
   color: var(--custom-green);
 }
 
-.p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
+.p-accordion
+  .p-accordion-header:not(.p-disabled).p-highlight
+  .p-accordion-header-link {
   background: var(--custom-orange);
   border-color: var(--custom-orange);
 }
@@ -246,7 +248,7 @@ ul {
 .p-card {
   border-radius: 1rem;
   height: 39rem;
-  width: 24rem;
+  width: 23rem;
 }
 
 .p-card .p-card-body {
@@ -314,7 +316,7 @@ ul {
   margin-top: 1rem;
 }
 
-.social>.pi {
+.social > .pi {
   font-size: 2.2rem;
 }
 
@@ -352,7 +354,6 @@ ul {
 }
 
 @keyframes dot-spin {
-
   0%,
   100% {
     box-shadow: 0 -18px 0 0 var(--custom-blue),

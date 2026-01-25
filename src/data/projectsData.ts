@@ -44,12 +44,12 @@ export default [
   {
     id: "CleanTemplate9",
     pushed_at: "",
-    name: ".NET9 Clean Architecture Template",
+    name: ".NET 9 Clean Architecture Template (Archived)",
     image: require("@/assets/clean9.png"),
     repo: "https://github.com/mezdelex/CleanTemplate8",
     app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
     description:
-      ".NET9 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Specification pattern, Minimal API, Docker for SQLServer, RabbitMQ and WebApi containerization, FluentValidations, Unit of Work pattern, Serilog logging, CSharpier pre-commit hooks with Husky, Testing with xUnit and Moq, FluentAssertions, etc. Coded with Neovim",
+      ".NET9 Clean Architecture template using DDD, Event Sourcing with MediatR, Pub/Sub pattern with MassTransit and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Specification pattern, Minimal API, FluentValidations, Unit of Work, Serilog, CSharpier pre-commit hooks with Husky, xUnit and Moq, FluentAssertions, etc. Coded with Neovim",
   },
   {
     id: "AoC2023",
@@ -74,7 +74,7 @@ export default [
   {
     id: "CleanTemplate",
     pushed_at: "",
-    name: ".NET7 Clean Architecture Template",
+    name: ".NET 7 Clean Architecture Template (Archived)",
     image: require("@/assets/clean.png"),
     repo: "https://github.com/mezdelex/CleanTemplate",
     app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
