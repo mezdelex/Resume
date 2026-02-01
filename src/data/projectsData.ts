@@ -102,17 +102,17 @@ export default [
       "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord.",
   },
   {
-    id: "terminal-config",
+    id: "dotfiles",
     pushed_at: "",
-    name: "Terminal",
+    name: "Dotfiles",
     image: require("@/assets/wezterm.png"),
-    repo: "https://github.com/mezdelex/terminal-config",
+    repo: "https://github.com/mezdelex/dotfiles",
     app: "https://github.com/wez/wezterm",
     description:
-      "Wezterm config with Cascadia Code NF variant, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager...",
+      "Dotfiles with Cascadia Code NF variant, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager, Flow Launcher...",
   },
   {
-    id: "neovim-config",
+    id: "neovim",
     pushed_at: "",
     name: "Neovim",
     image: require("@/assets/neovim.png"),
