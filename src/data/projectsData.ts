@@ -17,7 +17,7 @@ export default [
     name: "Protobuf OpenTelemetry",
     image: require("@/assets/proto-otel.jpg"),
     repo: "https://github.com/mezdelex/proto-otel",
-    app: "https://github.com/mezdelex/proto-otel",
+    app: "https://www.youtube.com/watch?v=OzJtWV4tgKY",
     description:
       "A dockerized event driven distributed architecture demo using Protocol Buffers for integrated communications, OpenTelemetry + OpenSearch stack for observability + .NET 10 Clean Architecture template using DDD, CQRS and Event Sourcing with MediatR and MassTransit. Coded with Neovim.",
   },
@@ -47,7 +47,7 @@ export default [
     name: ".NET 9 Clean Architecture Template (Archived)",
     image: require("@/assets/clean9.png"),
     repo: "https://github.com/mezdelex/CleanTemplate8",
-    app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
+    app: "https://github.com/mezdelex/CleanTemplate8",
     description:
       ".NET9 Clean Architecture template using DDD, Event Sourcing with MediatR, Pub/Sub pattern with MassTransit and RabbitMQ, Entity Framework Core's Identity, Redis cache, CQRS pattern, Specification pattern, Minimal API, FluentValidations, Unit of Work, Serilog, CSharpier pre-commit hooks with Husky, xUnit and Moq, FluentAssertions, etc. Coded with Neovim",
   },
@@ -57,7 +57,7 @@ export default [
     name: "Advent of Code (2023)",
     image: require("@/assets/aoc2023.png"),
     repo: "https://github.com/mezdelex/AoC2023",
-    app: "https://adventofcode.com/2023",
+    app: "https://github.com/mezdelex/AoC2023",
     description:
       "Algorithmic problem solving to achieve further Rust language proficiency with data structures, mutability and other language specific stuff. Also added CI pipeline via GitHub Actions to run testing jobs server side. Coded with Neovim.",
   },
@@ -67,7 +67,7 @@ export default [
     name: "Rust Examples",
     image: require("@/assets/rust.png"),
     repo: "https://github.com/mezdelex/RustExamples",
-    app: "https://www.rust-lang.org/",
+    app: "https://github.com/mezdelex/RustExamples",
     description:
       "Rust repository containing examples on various topics related to the language, such as concurrency, mutability, borrowing, lifetimes, data structures, etc. Work in progress. Coded with Neovim.",
   },
@@ -77,7 +77,7 @@ export default [
     name: ".NET 7 Clean Architecture Template (Archived)",
     image: require("@/assets/clean.png"),
     repo: "https://github.com/mezdelex/CleanTemplate",
-    app: "https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures",
+    app: "https://github.com/mezdelex/CleanTemplate",
     description:
       ".NET7 Clean Architecture template using DDD, Event Sourcing with MediatR library, Pub/Sub pattern with MassTransit library and RabbitMQ, CQRS pattern, Minimal API, Docker for PostgreSQL and RabbitMQ containerization, FluentValidations, Unit of Work pattern, Serilog logging, EditorConfig, Testing with xUnit, FluentAssertions, etc. Coded with Neovim",
   },
@@ -87,7 +87,7 @@ export default [
     name: "TodoApp API",
     image: require("@/assets/todoapp.png"),
     repo: "https://github.com/mezdelex/TodoApp",
-    app: "https://github.com/users/mezdelex/projects/1",
+    app: "https://github.com/mezdelex/TodoApp",
     description:
       "RESTful API to learn Go using Fiber framework, following Clean Architecture principles with Domain Driven Design in mind, JWT authentication/authorization, GORM as ORM with automigrations and code first schema definition, PostgreSQL as database and GitHub Projects as task and time management platform. Coded with Neovim.",
   },
@@ -97,7 +97,7 @@ export default [
     name: "Botchy",
     image: require("@/assets/botchy.png"),
     repo: "https://github.com/mezdelex/Botchy",
-    app: "https://discord.com/",
+    app: "https://github.com/mezdelex/Botchy",
     description:
       "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord.",
   },
@@ -105,11 +105,11 @@ export default [
     id: "dotfiles",
     pushed_at: "",
     name: "Dotfiles",
-    image: require("@/assets/wezterm.png"),
+    image: require("@/assets/dotfiles.png"),
     repo: "https://github.com/mezdelex/dotfiles",
-    app: "https://github.com/wez/wezterm",
+    app: "https://github.com/mezdelex/dotfiles",
     description:
-      "Dotfiles with Cascadia Code NF variant, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager, Flow Launcher...",
+      "Personal dotfiles with Wezterm terminal, Cascadia Code NF variant, Powershell Core shell, custom prompt forked from patriksvensson's Oh My Posh theme, fuzzy finding via PSFzf, autocompletion via PSReadLine, fast directory navigation via zoxide, icon glyphs via Terminal Icons, Lazygit, Lazydocker, k9s, Yazi TUI file manager, Flow Launcher...",
   },
   {
     id: "neovim",
@@ -117,7 +117,7 @@ export default [
     name: "Neovim",
     image: require("@/assets/neovim.png"),
     repo: "https://github.com/mezdelex/neovim-config",
-    app: "https://neovim.io/",
+    app: "https://github.com/mezdelex/neovim-config",
     description:
       "Fully functional daily driver Neovim config with LSP support, language server installation manager, debugger adapter, auto syntax highlighting parser installation, code actions, LLM integration through provided adapters, linting, suggestions, formatting, diagnostics, file search, live grep, file manager, git integration, code modification history, status line, autopairs, autotags...",
   },
@@ -127,7 +127,7 @@ export default [
     name: "Advent of Code (2022)",
     image: require("@/assets/aoc2022.png"),
     repo: "https://github.com/mezdelex/AoC2022",
-    app: "https://adventofcode.com/2022",
+    app: "https://github.com/mezdelex/AoC2022",
     description:
       "Algorithmic problem solving to achieve further C# 11 language proficiency in declarative paradigm using LINQ, Lambdas and Expression-Bodied members. Also added CI pipeline via GitHub Actions to run testing jobs server side. Coded with VSCode.",
   },
@@ -177,7 +177,7 @@ export default [
     name: "Concesionario",
     image: require("@/assets/concesionario.jpg"),
     repo: "https://github.com/mezdelex/Concesionario-SPA",
-    app: "https://www.youtube.com/watch?v=iDaF9cqdtz0&ab_channel=Mezdelex",
+    app: "https://github.com/mezdelex/Concesionario-SPA",
     description:
       "Technical test using Spring Boot 2.4.5, Vue 3 Composition API with PrimeVUE as UI library and IBM's FileNet service as automated document manager. Coded with VSCode. The project was not deployed anywhere so the link it's a YouTube demo.",
   },
@@ -187,7 +187,7 @@ export default [
     name: "Recetario SPA",
     image: require("@/assets/recetario.jpg"),
     repo: "https://github.com/mezdelex/Recetario-SPA",
-    app: "https://spa-recetario.netlify.app",
+    app: "https://github.com/mezdelex/Recetario-SPA",
     description:
       "Vue 3 app to consume a RESTful API done with Spring Boot 2.4.5 and Java JDK 11+. Used PrimeVUE as UI library, Javascript ES6, 2 way syncs, props, events, mixins, slots, etc. The deployment has been done using GitHub's CD pipeline against Netlify. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
   },
@@ -197,7 +197,7 @@ export default [
     name: "Recetario RESTful API",
     image: require("@/assets/recetario2.jpg"),
     repo: "https://github.com/mezdelex/Recetario-RESTful-API",
-    app: "https://db-recetario.herokuapp.com/api/plato",
+    app: "https://github.com/mezdelex/Recetario-RESTful-API",
     description:
       "RESTful API done with Spring Boot 2.4.5, Gradle 6.8.2 and Java JDK 11+. Used MVC, Hibernate/JPA, QueryDSL, HATEOAS, JUnit, Mockito, custom mapper, common interfaces, dockerfile, docker-compose, YAML formatting, etc. MySQL DB is hosted by Heroku's JawsDB service. Coded with VSCode. JawsDB service shutsdown the DB after 30 min of inactivity, so if you don't see any content let it boot.",
   },
@@ -207,7 +207,7 @@ export default [
     name: "Advent of Code (2020)",
     image: require("@/assets/aoc2020.png"),
     repo: "https://github.com/mezdelex/AoC2020",
-    app: "https://adventofcode.com/2020",
+    app: "https://github.com/mezdelex/AoC2020",
     description:
       "Algorithmic problem solving to achieve further Java's JDK 11+ language proficiency in declarative paradigm using streams, lambdas and functional interfaces. Coded with VSCode.",
   },
