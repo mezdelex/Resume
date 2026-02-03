@@ -34,7 +34,7 @@ export default [
   {
     id: "unpack.nvim",
     pushed_at: "",
-    name: "UnPack",
+    name: "Unpack",
     image: require("@/assets/unpack.png"),
     repo: "https://github.com/mezdelex/unpack.nvim",
     app: "https://github.com/mezdelex/unpack.nvim",
@@ -92,12 +92,12 @@ export default [
       "RESTful API to learn Go using Fiber framework, following Clean Architecture principles with Domain Driven Design in mind, JWT authentication/authorization, GORM as ORM with automigrations and code first schema definition, PostgreSQL as database and GitHub Projects as task and time management platform. Coded with Neovim.",
   },
   {
-    id: "Botchy",
+    id: "botchy",
     pushed_at: "",
     name: "Botchy",
     image: require("@/assets/botchy.png"),
-    repo: "https://github.com/mezdelex/Botchy",
-    app: "https://github.com/mezdelex/Botchy",
+    repo: "https://github.com/mezdelex/botchy",
+    app: "https://github.com/mezdelex/botchy",
     description:
       "A Discord bot written in Python to facilitate the sharing of information between guild members of the mobile game Mobile Legends: Adventure. The bot needs to be run either locally or hosted in a dedicated server so the commands can be recognized by Discord.",
   },
