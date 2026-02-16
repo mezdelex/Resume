@@ -4,6 +4,15 @@ import { Activity, Icons, Reasons } from "@/enums/enums";
 export default [
   {
     icon: Icons.Code,
+    title: "Harsco Environmental - Enviri",
+    date: `2026-Present`,
+    activity: Activity.Development,
+    where: "https://www.enviri.com/harsco-environmental/",
+    stack: ".NET 8+, C# 12+, Angular, Typescript, Docker, Kubernetes...",
+    tasks: ["Pending..."],
+  },
+  {
+    icon: Icons.Code,
     title: "Romeu Shipping Division",
     date: `2024-2025 ${Reasons.Resign}`,
     activity: Activity.Development,
